@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula</title>
+    <h1>Calculadora Geométrica</h1>
+</head>
+<body>
+    <h3>Círculo: Área é igual a Pi vezes o raio ao quadrado.</h3>
+    <a href="index.html">
+        <img src="img/area/circulo.png" alt="desenho de um círculo">
+    </a>
+    <fieldset>
+        <label for="raio">Digite o valor do raio para encontrar a área:</label>
+        <br>
+        <input type="text" id="raio" />
+        <input type="button" value="Calcular" onclick="area_circulo()">
+        <br>
+        <label for="area">Resultado:</label>
+        <br>
+        <input type="text" id="area" readonly>
+
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+</html>
