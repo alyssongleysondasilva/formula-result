@@ -1,0 +1,19 @@
+body {
+        background-color: #93a192ff;
+}
+
+fieldset {
+        background-color: #e2f7e1ff;
+        width: 64%;
+        margin: 0 auto;
+        color: #596158ff;
+        text-align: center;
+}
+.figuras {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+}
+
