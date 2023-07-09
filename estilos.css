@@ -16,4 +16,16 @@ fieldset {
         justify-content: center;
         align-items: center;
 }
-
+footer {
+        flex-wrap: wrap;      
+        width: 64%;
+        margin: 0 auto;
+        color: black;
+        text-align: center;
+}
+.social {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+}
