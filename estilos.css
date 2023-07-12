@@ -4,7 +4,7 @@ body {
 
 fieldset {
         background-color: #e2f7e1ff;
-        width: 64%;
+        width: 70%;
         margin: 0 auto;
         color: #596158ff;
         text-align: center;
@@ -18,9 +18,9 @@ fieldset {
 }
 footer {
         flex-wrap: wrap;      
-        width: 64%;
+        width: 70%;
         margin: 0 auto;
-        color: black;
+        color: #596158ff;
         text-align: center;
 }
 .social {
