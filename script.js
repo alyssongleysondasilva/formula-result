@@ -50,3 +50,19 @@ function volume_cilindro(){
     var volume = Math.PI*raio_base*altura;
     document.getElementById('volume').value = volume;
 }
+function volume_cone(){
+    var raio = parseFloat(document.getElementById('raio').value);
+    var altura = parseFloat(document.getElementById('altura').value);
+    var volume = (Math.PI*(raio**2)*altura)/3;
+    document.getElementById('volume').value = volume;
+}
+function volume_cubo(){
+    var altura = parseFloat(document.getElementById('altura').value);
+    var volume = altura**3;
+    document.getElementById('volume').value = volume;
+}
+function volume_esfera(){
+    var raio = parseFloat(document.getElementById('raio').value);
+    var volume = (4*Math.PI*(raio**3))/3;
+    document.getElementById('volume').value = volume;
+}
