@@ -44,3 +44,9 @@ function area_trianguloEquilatero(){
     var area = ((lado**2)*Math.sqrt(3))/4;
     document.getElementById('area').value = area;
 }
+function volume_cilindro(){
+    var raio_base = parseFloat(document.getElementById('raio_base').value);
+    var altura = parseFloat(document.getElementById('altura').value);
+    var volume = Math.PI*raio_base*altura;
+    document.getElementById('volume').value = volume;
+}

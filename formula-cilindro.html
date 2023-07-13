@@ -11,20 +11,20 @@
 </head>
 <body>
     <fieldset>
-        <h2>Paralelogramo</h2>
+        <h2>Cilindro</h2>
         <div class="figuras">
-            <img src="img/area/paralelogramo.png" alt="desenho de um paralelogramo">
+            <img src="img/volume/cilindro.png"          alt="desenho de um cilindro">
         </div>
     </fieldset>
     <fieldset>
         <h4>Preencha os campos para efetuar o cálculo.</h4>
+        <input type="text" id="raio_base" placeholder="Raio da base" />
+        <br>
         <input type="text" id="altura" placeholder="Altura" />
         <br>
-        <input type="text" id="base" placeholder="Base" />
+        <input type="text" id="volume" readonly placeholder="Resultado">
         <br>
-        <input type="text" id="area" readonly placeholder="Resultado">
-        <br>
-        <input type="button" value="Calcular" onclick="area_paralelogramo()">
+        <input type="button" value="Calcular" onclick="volume_cilindro()">
         <a href="index.html">
             <input type="button" value="Voltar">
         </a>
@@ -32,7 +32,7 @@
     <script src="script.js"></script>
 </body>
 <footer>
-    <h5>Desenvolvido por: Álysson Gleyson da Silva</h5>
+    <h3>Desenvolvido por: Álysson Gleyson da Silva</h3>
     <div class="social">
         <a href="https://www.github.com/gleysonalysson/"> 
             <img src="img/social/github-mark.png" alt="Logo github">
