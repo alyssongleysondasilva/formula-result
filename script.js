@@ -78,3 +78,9 @@ function volume_piramide(){
     var volume = (area_base*altura)/3;
     document.getElementById('volume').value = volume;
 }
+function volume_prismaHexagonal(){
+    var altura = parseFloat(document.getElementById('altura').value);
+    var area_base = parseFloat(document.getElementById('area_base').value);
+    var volume = altura*area_base;
+    document.getElementById('volume').value = volume;
+}
