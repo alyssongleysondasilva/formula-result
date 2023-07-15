@@ -72,3 +72,9 @@ function volume_paralelepipedo(){
     var volume = altura_base * comprimento;
     document.getElementById('volume').value = volume;
 }
+function volume_piramide(){
+    var area_base = parseFloat(document.getElementById('area_base').value);
+    var altura = parseFloat(document.getElementById('altura').value);
+    var volume = (area_base*altura)/3;
+    document.getElementById('volume').value = volume;
+}
