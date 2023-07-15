@@ -66,3 +66,9 @@ function volume_esfera(){
     var volume = (4*Math.PI*(raio**3))/3;
     document.getElementById('volume').value = volume;
 }
+function volume_paralelepipedo(){
+    var altura_base = parseFloat(document.getElementById('altura_base').value);
+    var comprimento = parseFloat(document.getElementById('comprimento').value);
+    var volume = altura_base * comprimento;
+    document.getElementById('volume').value = volume;
+}
