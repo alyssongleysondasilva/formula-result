@@ -57,8 +57,8 @@ function volume_cone(){
     document.getElementById('volume').value = volume;
 }
 function volume_cubo(){
-    var altura = parseFloat(document.getElementById('altura').value);
-    var volume = altura**3;
+    var lado = parseFloat(document.getElementById('lado').value);
+    var volume = lado**3;
     document.getElementById('volume').value = volume;
 }
 function volume_esfera(){
