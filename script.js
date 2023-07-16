@@ -30,7 +30,7 @@ function area_trapezio(){
     var base_maior = parseFloat(document.getElementById('base_maior').value);
     var base_menor = parseFloat(document.getElementById('base_menor').value);
     var altura = parseFloat(document.getElementById('altura').value);
-    var area = ((base_maior*base_menor)*altura)/2;
+    var area = ((base_maior+base_menor)*altura)/2;
     document.getElementById('area').value = area;
 }
 function area_triangulo(){
