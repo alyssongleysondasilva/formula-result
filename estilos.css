@@ -1,10 +1,19 @@
+.menu {
+        background-color: #192940ff;
+        display: flex;
+        color: white;
+        justify-content: center;
+
+}
+
+
 body {
         background-color: #93a192ff;
 }
 
 fieldset {
         background-color: #e2f7e1ff;
-        width: 70%;
+        width: 72%;
         margin: 0 auto;
         color: black;
         text-align: center;
@@ -25,7 +34,7 @@ footer {
         width: 70%;
         margin: 0 auto;
         color: #596158ff;
-        text-align: center;
+        text-align: center;     
 }
 .social a{
         flex-wrap: wrap;
