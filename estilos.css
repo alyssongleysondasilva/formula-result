@@ -6,7 +6,7 @@ fieldset {
         background-color: #e2f7e1ff;
         width: 70%;
         margin: 0 auto;
-        color: #596158ff;
+        color: black;
         text-align: center;
 }
 .figuras {
@@ -15,6 +15,10 @@ fieldset {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+}
+.figuras a{
+        text-decoration: none;
+        color: black;
 }
 footer {
         flex-wrap: wrap;      
@@ -29,4 +33,3 @@ footer {
         align-items: center;
         text-decoration: none;
 }
-
