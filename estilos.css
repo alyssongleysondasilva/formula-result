@@ -1,5 +1,5 @@
 .menu {
-        background-color: #192940ff;
+        background-color: #059396ff;
         display: flex;
         color: white;
         justify-content: center;
@@ -12,7 +12,7 @@
 
 
 body {
-        background-color: #93a192ff;
+        background-color: #CCCCCC;
 }
 
 fieldset {
@@ -37,7 +37,7 @@ footer {
         flex-wrap: wrap;      
         width: 70%;
         margin: 0 auto;
-        color: #596158ff;
+        color: #059396ff;
         text-align: center;     
 }
 .social a{
