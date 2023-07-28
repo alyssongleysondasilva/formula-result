@@ -46,3 +46,7 @@ footer {
         align-items: center;
         text-decoration: none;
 }
+.social img{
+        height: 40px;
+        width: 40px;
+}
