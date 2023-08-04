@@ -1,5 +1,5 @@
 .menu {
-        background-color: #059396ff;
+        background-color: #6B8089;
         display: flex;
         color: white;
         justify-content: center;
@@ -34,10 +34,11 @@ body {
         color: black;
 }
 footer {
+        background-color: #002a68;
         flex-wrap: wrap;      
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
-        color: #059396ff;
+        color: white;
         text-align: center;     
 }
 .social a{
