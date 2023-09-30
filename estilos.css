@@ -1,11 +1,11 @@
 .menu {
-        background-color: white;
+        background-color: #002A68;
         display: flex;
-        color:#002a68;
+        color:white;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        width: 80%;
+        width: 98%;
 }
 .menu img{
         height: 100px;
@@ -14,12 +14,12 @@
 
 
 body {
-        background-color: #002a68;
+        background-color: #A1A1A1;
 }
 
 .campo {
         background-color:white;
-        width: 80%;
+        width: 98%;
         margin: 0 auto;
         color: black;
         text-align: center;
@@ -36,7 +36,7 @@ body {
         color: black;
 }
 footer {
-        background-color: #002a68;
+        background-color: #A1A1A1;
         flex-wrap: wrap;      
         width: 100%;
         margin: 0 auto;
