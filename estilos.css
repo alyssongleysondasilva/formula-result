@@ -1,15 +1,18 @@
 .menu {
-        background-color: #002A68;
+        background-color: #1253B5;
         display: flex;
         color:white;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
         width: 98%;
+        flex-wrap: wrap;
+        text-align: center;
 }
 .menu img{
-        height: 100px;
-        width: 100px;
+        
+        
+        width: 200px;
 }
 
 
