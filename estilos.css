@@ -39,9 +39,9 @@ body {
         color: black;
 }
 footer {
-        background-color: #A1A1A1;
+        background-color: #002A68;
         flex-wrap: wrap;      
-        width: 100%;
+        width: 98%;
         margin: 0 auto;
         color: white;
         text-align: center;     
