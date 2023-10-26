@@ -5,7 +5,7 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        width: 98%;
+        width: 100%;
         flex-wrap: wrap;
         text-align: center;
 }
@@ -18,11 +18,12 @@
 
 body {
         background-color: #A1A1A1;
+        margin: 0;
 }
 
 .campo {
         background-color:white;
-        width: 98%;
+        width: 100%;
         margin: 0 auto;
         color: black;
         text-align: center;
@@ -41,7 +42,7 @@ body {
 footer {
         background-color: #002A68;
         flex-wrap: wrap;      
-        width: 98%;
+        width: 100%;
         margin: 0 auto;
         color: white;
         text-align: center;     
